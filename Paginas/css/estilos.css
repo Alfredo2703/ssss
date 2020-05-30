@@ -1,0 +1,209 @@
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-image:url(https://pm1.narvii.com/6335/5c5fa89196be9b187cdcddfa0a40e6d86c115c49_hq.jpg); 
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;  
+	background-attachment: fixed; 
+	color: #fff;
+}
+
+#Contenedor{
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+header {
+	height: 150px;
+	background: #2DCE6C;
+}
+header h1{
+	font-size: 50px;
+	text-align: center;
+	line-height: 150px;
+}
+
+.center{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 0px;
+	border-style: dotted;
+
+}
+.center img{
+	float: left;
+}
+
+img{
+	transition: all 0.5s linear;
+}
+img:hover{
+	transform: scale(0.9);
+}
+
+nav {
+	background: orange;
+	height: 60px;
+}
+nav h2{
+	font-size: 35px;
+	text-align: center;
+	line-height: 60px;
+}
+#Contenido {
+	width: 960px;
+	height: 4300px;
+	float: left;
+	background: #00AD8E;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#Contenido h2{
+	font-size: 35px;
+	text-align: center;
+	line-height: 100px;
+}
+#Contenido h3{
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	}
+
+
+
+
+.wrap{
+	width: 1100px;
+	margin: 50px auto;
+	display: table;
+	justify-content: center;
+	position: center;
+}
+
+.tarjeta-wrap{
+margin:100px;
+-webkit-perspective: 600;
+perspective: 600;	
+position: center;
+}
+.tarjeta{
+	width: 500px;
+	height: 350px;
+	background:orange;
+	position: center;
+	transform-style: preserve-3d;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	-moz-box-shadow:0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65)
+		position: center;
+	
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: center;
+}
+
+.atras{
+	transform: rotateY(180deg);
+		padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+	color: #fff;
+	font-family: "open sans";
+	position: center;
+
+}
+
+.adelante{
+	width: 100%;
+	position: center;
+
+}
+
+.tarjeta-wrap:hover	.tarjeta{
+
+	transform: rotateY(180deg);
+	position: center;
+
+}
+
+
+.card1{
+	background-image: url(https://pm1.narvii.com/6121/c70b348e5008bf2715a0f1d13d994b5058307b19_00.jpg);
+	background-position: center center;
+
+	background-size: cover;  
+
+ 
+}
+
+
+.card2{
+	background-image: url(https://honeysanime.com/wp-content/uploads/2015/10/pokemon-wallpaper-5-700x455.jpg);
+	background-position: center center;
+
+	background-size: cover;  
+
+}
+
+
+
+.card3{
+	background-image: url(https://inperfecto.com.mx/wp-content/uploads/2019/11/DKlgV4jX0AAe3et-1024x488.jpg);
+background-position: center center;
+
+	background-size: cover;  
+}
+
+
+
+.card4{
+	background-image: url(https://pm1.narvii.com/6782/0f7f015a6d3b71daea68f9f6df259209946bc09cv2_hq.jpg);
+background-position: center center;
+
+	background-size: cover;  
+}
+
+
+
+.card5{
+	background-image: url(https://pm1.narvii.com/6867/32cb7a1104db85fb5b9e79a69d6999046737627er1-873-611v2_uhq.jpg);
+	background-position: center center;
+
+	background-size: cover;  
+}
+
+.menp{
+	position: right;
+}
+.menp h4{
+	position: center;
+}
+
+
+
+footer{
+	background: gray;
+	clear: both;
+
